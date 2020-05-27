@@ -1,0 +1,13 @@
+.list-group-item,
+button {
+    margin: 10px;
+}
+
+div.postHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+        align-self: center;
+    }
+}

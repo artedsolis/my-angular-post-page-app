@@ -1,0 +1,10 @@
+<li [ngClass]="{'list-group-item':true, 'list-group-item-success': postEvaluation === 'Love it', 'list-group-item-danger': postEvaluation === 'Don\'t love it'}">
+
+    <div class="postHead">
+        <h4 [ngStyle]="{color: getColor()}"> {{ postTitle }} -- People's evaluation : {{ getPostEvaluations() }}</h4>
+        <p>{{ postLastUpdate | date:'short' | lowercase }}</p>
+    </div>
+    <p> {{ getPostContent() }} </p>
+    <button class="btn btn-success" (click)="onLoveOn()" [disabled]="postEvaluation === 'Love it'">I Love This</button>
+    <button class="btn btn-danger" (click)="onHateOn()" [disabled]="postEvaluation === 'Hate it'">I Hate This</button>
+</li>

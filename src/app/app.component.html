@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-xs-8">
+            <h2>Posts</h2>
+
+            <p>Mis à jour : {{ lastUpdate | async | date: 'short' | lowercase }} </p>
+
+            <ul class="list-group">
+                <app-post-list *ngFor="let post of posts, let i=index" [indexOfPost]="i" [postTitle]="post.title" [postContent]="post.content" [postEvaluation]="post.evaluation"></app-post-list>
+                <button class="btn btn-success" [disabled]=!isAuth (click)="iLoveIt()">Donner de l'amour à tout</button>
+                <button class="btn btn-danger" [disabled]=!isAuth (click)="iDontLoveIt()">Donner de l'haine à tout</button>
+            </ul>
+        </div>
+    </div>
+</div>
