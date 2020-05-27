@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
-![alt text]Demo]
+![alt text][Demo]
 
 [Demo]: https://github.com/artedsolis/my-angular-post-page-app/blob/master/src/assets/Screenshot-MyPostPage.png "Demo Post App"
 
