@@ -1,4 +1,4 @@
-# Post Love and Hate -- Page
+# Send some Posts Love and Hate -- Page
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
