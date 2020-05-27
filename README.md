@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![alt text][Demo]
 
-[Demo]: https://github.com/artedsolis/my-angular-post-page-app/blob/master/src/assets/Screenshot-MyPostPage.png "Demo Post App"
+[Demo]: https://github.com/artedsolis/send-posts-some-love-and-hate-angular-app/blob/master/src/assets/Screenshot-my-post-page.png "Demo Post App"
 
 ## Development server
 
