@@ -6,27 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 [Demo]: https://github.com/artedsolis/send-posts-some-love-and-hate-angular-app/blob/master/src/assets/Screenshot-my-post-page.png "Demo Post App"
 
-## Development server
+## What is this repository for? 
+
+* This repo is part of a training to learn and take control with Angular and Typescript
+* consists of a demo of an application which allows you to create posts and both send likes or hates depending on their content and the reader's feeling
+* 0.1.1
+
+### How do I get set up? ###
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# my-angular-post-page-app
